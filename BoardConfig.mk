@@ -1,5 +1,5 @@
 # inherit from the proprietary version
--include vendor/samsung/a32x/BoardConfigVendor.mk
+# -include vendor/samsung/a32x/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/a32x
 
