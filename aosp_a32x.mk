@@ -6,7 +6,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a32x
-PRODUCT_NAME := cm_a32x
+PRODUCT_NAME := aosp_a32x
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A326B
 PRODUCT_MANUFACTURER := samsung
