@@ -5,7 +5,7 @@ DEVICE_PATH := device/samsung/a32x
 
 USE_CAMERA_STUB := true
 # For building with minimal manifest
-ALLOW_MISSING_DEPENDENCIES := true
+# ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
 TARGET_ARCH := arm64
