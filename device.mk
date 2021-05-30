@@ -22,3 +22,7 @@ $(call inherit-product, build/target/product/full.mk)
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_a32x
 PRODUCT_DEVICE := a32x
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SM-A326B
+PRODUCT_MANUFACTURER := samsung
+PRODUCT_RELEASE_NAME := samsung a32x

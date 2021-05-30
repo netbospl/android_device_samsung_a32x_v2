@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a32x.mk
+    $(LOCAL_DIR)/aosp_a32x.mk
