@@ -17,5 +17,6 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 PRODUCT_DEVICE := a32x
 PRODUCT_NAME := cm_a32x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := a32x
+PRODUCT_MODEL := SM-A326B
 PRODUCT_MANUFACTURER := samsung
+PRODUCT_RELEASE_NAME := samsung a32x
