@@ -17,6 +17,6 @@ $(call inherit-product, device/samsung/a32x/device.mk)
 PRODUCT_DEVICE := a32x
 PRODUCT_NAME := lineage_a32x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := a32x
+PRODUCT_MODEL := SM-A326B
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_RELEASE_NAME := samsung a32x
