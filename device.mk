@@ -9,7 +9,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/a32x/overlay
 
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := device/samsung/a32x/kernel
+	LOCAL_KERNEL := device/samsung/a32x/prebuilt/Image.gz
 else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
