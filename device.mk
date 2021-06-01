@@ -1,21 +1,21 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # The gps config appropriate for this device
-$(call inherit-product, device/common/gps/gps_us_supl.mk)
+$(call inherit-product-if-exists, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/a32x/a32x-vendor.mk)
+# $(call inherit-product-if-exists, vendor/samsung/a32x/BoardConfigVendor.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/samsung/a32x/overlay
+# DEVICE_PACKAGE_OVERLAYS += device/samsung/a32x/overlay
 
 
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := device/samsung/a32x/prebuilt/Image.gz
-else
-	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
+#ifeq ($(TARGET_PREBUILT_KERNEL),)
+#	LOCAL_KERNEL := device/samsung/a32x/prebuilt/Image.gz
+#else
+#	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+#endif
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_KERNEL):kernel
 
 $(call inherit-product, build/target/product/full.mk)
 
