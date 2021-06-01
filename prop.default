@@ -4,11 +4,11 @@
 ro.actionable_compatible_property.enabled=true
 ro.postinstall.fstab.prefix=/system
 ro.oem_unlock_supported=1
-ro.secure=1
+ro.secure=0
 security.perf_harden=1
 ro.adb.secure=1
 ro.allow.mock.location=0
-ro.debuggable=0
+ro.debuggable=1
 ro.config.per_app_memcg=false
 ro.mediatek.version.branch=alps-mp-r0.mssi1.tc10sp
 bluetooth.enable_timeout_ms=8000
@@ -58,4 +58,3 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.iwlan_operation_mode=legacy
 persist.radio.sib16_support=1
 persist.sys.usb.config=none
-
